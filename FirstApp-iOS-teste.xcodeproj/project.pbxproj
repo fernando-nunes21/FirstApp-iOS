@@ -13,6 +13,7 @@
 		04662BB027AF98AD009FF036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04662BAE27AF98AD009FF036 /* Main.storyboard */; };
 		04662BB227AF98AE009FF036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04662BB127AF98AE009FF036 /* Assets.xcassets */; };
 		04662BB527AF98AE009FF036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04662BB327AF98AE009FF036 /* LaunchScreen.storyboard */; };
+		04662BBD27AFA45D009FF036 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04662BBC27AFA45D009FF036 /* PlanetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04662BB127AF98AE009FF036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04662BB427AF98AE009FF036 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04662BB627AF98AE009FF036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04662BBC27AFA45D009FF036 /* PlanetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				04662BB127AF98AE009FF036 /* Assets.xcassets */,
 				04662BB327AF98AE009FF036 /* LaunchScreen.storyboard */,
 				04662BB627AF98AE009FF036 /* Info.plist */,
+				04662BBC27AFA45D009FF036 /* PlanetViewController.swift */,
 			);
 			path = "FirstApp-iOS-teste";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04662BBD27AFA45D009FF036 /* PlanetViewController.swift in Sources */,
 				04662BAD27AF98AD009FF036 /* ViewController.swift in Sources */,
 				04662BA927AF98AD009FF036 /* AppDelegate.swift in Sources */,
 				04662BAB27AF98AD009FF036 /* SceneDelegate.swift in Sources */,
